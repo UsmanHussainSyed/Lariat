@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.lariathub.pm",
+               "sha256_cert_fingerprints": ["8A:33:AA:4B:8A:3C:AA:E1:27:08:93:D3:4E:41:06:CD:C5:64:FF:86:DB:C9:D0:A3:E8:AD:4B:B8:23:99:5E:75"] }
+}]

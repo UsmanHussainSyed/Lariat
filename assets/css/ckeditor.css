@@ -1,0 +1,162 @@
+/* :root {
+  --ck-color-toolbar-background: var(--sidebar);
+  --ck-color-toolbar-border: var(--sidebar);
+  --ck-color-base-background: var(--sidebar);
+  --ck-border-radius: 4px;
+  --ck-color-text: rgba(255, 255, 255, 0.8);
+  --ck-color-base-border: var(--sidebar);
+  --ck-color-button-default-background: transparent;
+  --ck-color-button-default-hover-background: var(--sidebar-light);
+  --ck-color-button-default-hover-background-focus: var(--sidebar-button);
+  --ck-color-button-action-background: transparent;
+  --ck-color-list-button-on-background: var(--sidebar);
+  --ck-color-list-button-on-background-focus: var(--sidebar-light);
+  --ck-color-list-button-on-hover-background: var(--sidebar-light);
+  --ck-color-list-button-on-hover-background-focus: var(--sidebar-button);
+  --ck-color-button-on-background: var(--sidebar-light);
+  --ck-color-button-on-hover-background: var(--sidebar-light);
+  --ck-color-button-on-hover-background-focus: var(--sidebar-button);
+  --ck-color-dropdown-panel-background: var(--sidebar);
+  --ck-color-dropdown-panel-border: var(--sidebar);
+  --ck-color-panel-background: var(--sidebar);
+  --ck-color-list-background: var(--sidebar);
+  --ck-color-panel-border: var(--sidebar);
+  --ck-color-input-background: var(--sidebar-button);
+  --ck-color-labeled-field-label-background: var(--sidebar-light);
+  --ck-focus-outer-shadow: var(--sidebar-button);
+
+  --ck-color-input-border: var(--border);
+  --ck-color-input-disabled-text: rgba(255, 255, 255, 0.23);
+  --ck-color-link-default: var(--primary);
+} */
+
+/* .ck.ck-editor__editable:not(.ck-editor__nested-editable).ck-focused,
+.ck.ck-list__item .ck-button {
+  border-color: var(--sidebar-light) !important;
+} */
+
+/* .ck-content {
+  @apply text-sm;
+}
+
+.ck-content a[href] {
+  @apply text-primary;
+} */
+.ck-content a[href] {
+  color: #FF8A01;
+
+}
+/* .ck-editor__editable {
+  min-height: 500px;
+} */
+
+
+.ck-content blockquote,
+.ck-content dl,
+.ck-content dd,
+.ck-content h1,
+.ck-content h2,
+.ck-content h3,
+.ck-content h4,
+.ck-content h5,
+.ck-content h6,
+.ck-content hr,
+.ck-content figure,
+.ck-content p,
+.ck-content pre {
+  margin: revert;
+
+}
+
+.ck-content blockquote:first-child,
+.ck-content dl:first-child,
+.ck-content dd:first-child,
+.ck-content h1:first-child,
+.ck-content h2:first-child,
+.ck-content h3:first-child,
+.ck-content h4:first-child,
+.ck-content h5:first-child,
+.ck-content h6:first-child,
+.ck-content hr:first-child,
+.ck-content figure:first-child,
+.ck-content p:first-child,
+.ck-content pre:first-child {
+  margin-top: 0;
+}
+
+.ck-content blockquote:last-child,
+.ck-content dl:last-child,
+.ck-content dd:last-child,
+.ck-content h1:last-child,
+.ck-content h2:last-child,
+.ck-content h3:last-child,
+.ck-content h4:last-child,
+.ck-content h5:last-child,
+.ck-content h6:last-child,
+.ck-content hr:last-child,
+.ck-content figure:last-child,
+.ck-content p:last-child,
+.ck-content pre:last-child {
+  margin-bottom: 0;
+}
+
+.ck-content ol,
+.ck-content ul,
+.ck-content li
+ {
+  list-style: revert;
+  margin: revert;
+  padding: revert;
+}
+
+.ck-content ol:first-child,
+.ck-content ul:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.ck-content ol:last-child,
+.ck-content ul:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.ck-mentions .mention__item {
+        display: block;
+    }
+
+    .ck-mentions .mention__item img {
+        border-radius: 100%;
+        height: 20px;
+    }
+
+    .ck-mentions .mention__item span {
+        margin-left: .5em;
+    }
+
+    .ck-mentions .mention__item.ck-on span {
+        color: var(--ck-color-base-background);
+    }
+
+    .ck-mentions .mention__item .mention__item__full-name {
+        color: hsl(0, 0%, 45%);
+    }
+
+    .ck-mentions .mention__item:hover:not(.ck-on) .mention__item__full-name {
+        color: hsl(0, 0%, 40%);
+    }
+
+    /* ---- Chat editor content styles ----------------------------------------------------------- */
+
+    .chat .ck-content .mention {
+        background: unset;
+    }
+
+    .chat .ck.ck-content a,
+    .chat .chat__posts a {
+        color: hsl(231, 89%, 53%);
+    }
+
+    /* .ck-editor__editable_inline {
+      min-height: 815px !important;
+    } */
+

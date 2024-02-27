@@ -1,0 +1,6 @@
+/assets/css/*
+/static/js/*
+.nuxt/*
+node_modules/*
+/ckeditor5_build/*
+/ckeditor5_build_old/*
